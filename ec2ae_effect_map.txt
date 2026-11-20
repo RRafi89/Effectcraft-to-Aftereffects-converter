@@ -1,0 +1,20 @@
+# EffectCraft to After Effects: extra effect mappings
+#
+# Keep this file next to "EffectCraft to After Effects.bat" (or next to your
+# .ecproj). If the converter's report says an effect "has no After Effects
+# match", add a line here and run the conversion again.
+#
+# Format:   EffectCraft effect id = After Effects match name
+#
+# Where to find the two names:
+#   * The EffectCraft id is shown in the converter's report, in brackets,
+#     for example (ec.blur.gaussian). It is also in the .ecproj file as
+#     "effect": "ec.something".
+#   * The After Effects match name: apply the effect to a layer in AE, then
+#     run this in File > Scripts, or look it up in any AE match-name list.
+#     Built-in ones look like "ADBE Gaussian Blur 2"; plugins have their own.
+#
+# Examples (remove the # to use them):
+# ec.blur.gaussian = ADBE Gaussian Blur 2
+# ec.stylize.glow = ADBE Glo2
+# ec.stylize.deepglow = Deep Glow
